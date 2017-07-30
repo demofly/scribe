@@ -24,7 +24,7 @@
 #include "HdfsFile.h"
 
 #define INITIAL_BUFFER_SIZE (64 * 1024)
-#define LARGE_BUFFER_SIZE (16 * INITIAL_BUFFER_SIZE) /* arbitrarily chosen */
+#define LARGE_BUFFER_SIZE (256 * INITIAL_BUFFER_SIZE) /* arbitrarily chosen */
 #define UINT_SIZE 4
 
 using namespace std;
